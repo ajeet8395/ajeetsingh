@@ -13,7 +13,7 @@ const projects = [
     title: "Brainwave",
     description:
       "A modern UI/UX website for a resume analysis tool using Gemini API.",
-    image: "/Brainwave.png",
+    image: "/Brainwave.webp",
     tags: ["ReactJS", "Tailwind CSS", "Framer Motion", "Figma"],
     demoUrl: "https://brainwave-ajeet.vercel.app/",
     githubUrl: "",
