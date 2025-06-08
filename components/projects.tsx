@@ -9,14 +9,14 @@ import Link from "next/link"
 
 const projects = [
   {
-    logo: "/matchwize.svg",
+    logo: "/Brainwave.svg",
     title: "Brainwave",
     description:
       "A modern UI/UX website for a resume analysis tool using Gemini API.",
-    image: "/Brainwave.webp",
+    image: "/brainwave.webp",
     tags: ["ReactJS", "Tailwind CSS", "Framer Motion", "Figma"],
     demoUrl: "https://brainwave-ajeet.vercel.app/",
-    githubUrl: "",
+    githubUrl: "", 
     features: [
       "Gemini API integration for resume analysis",
       "Responsive design with Framer Motion animations",
