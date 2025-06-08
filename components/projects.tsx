@@ -10,16 +10,16 @@ import Link from "next/link"
 const projects = [
   {
     logo: "/matchwize.svg",
-    title: "Matchwize",
+    title: "Brainwave",
     description:
-      "matchwize analyzes your resume against job descriptions to give you a match score and actionable suggestions to improve your chances.",
-    image: "/matchwize.webp",
-    tags: ["Next.js", "Node.js", "Express.js", "Supabase", "Tailwind CSS", "Gemini API"],
-    demoUrl: "https://matchwize.com/",
+      "A modern UI/UX website for a resume analysis tool using Gemini API.",
+    image: "/Brainwave.png",
+    tags: ["ReactJS", "Tailwind CSS", "Framer Motion", "Figma"],
+    demoUrl: "https://brainwave-ajeet.vercel.app/",
     githubUrl: "",
     features: [
       "Gemini API integration for resume analysis",
-      "Supabase for data storage",
+      "Responsive design with Framer Motion animations",
     ],
   },
   {

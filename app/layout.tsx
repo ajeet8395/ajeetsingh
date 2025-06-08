@@ -14,11 +14,11 @@ export const metadata: Metadata = {
   description: "Portfolio website of Ajeet Singh, a Software Developer",
   icons: {
     icon: [
-      { url: '/haquedot.svg', sizes: 'any', type: 'image/x-icon' },
-      { url: '/haquedot.svg', sizes: '16x16', type: 'image/png' },
-      { url: '/haquedot.svg', sizes: '32x32', type: 'image/png' },
+      { url: '/AjeetSingh.png', sizes: 'any', type: 'image/x-icon' },
+      { url: '/AjeetSingh.png', sizes: '16x16', type: 'image/png' },
+      { url: '/AjeetSingh.png', sizes: '32x32', type: 'image/png' },
     ],
-    apple: '/haquedot.svg',
+    apple: '/AjeetSingh.png',
   },
 }
 
