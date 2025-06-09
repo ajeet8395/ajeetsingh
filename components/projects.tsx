@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import Image from "next/image"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Github, ExternalLink } from "lucide-react"
-import Link from "next/link"
+import { motion } from "framer-motion";
+import Image from "next/image";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Github, ExternalLink } from "lucide-react";
+import Link from "next/link";
 
 const projects = [
   {
@@ -16,7 +16,7 @@ const projects = [
     image: "/brainwave.webp",
     tags: ["ReactJS", "Tailwind CSS", "Framer Motion", "Figma"],
     demoUrl: "https://brainwave-ajeet.vercel.app/",
-    githubUrl: "", 
+    githubUrl: "",
     features: [
       "Gemini API integration for resume analysis",
       "Responsive design with Framer Motion animations",
@@ -24,19 +24,17 @@ const projects = [
   },
   {
     logo: "/englishexpresswayLogo.svg",
-    title: "English Expressway",
+    title: "iPhone",
     description:
-      "An online platform to join courses and buy ebooks to learn English, featuring role-based authentication and payment integration.",
-    image: "/englishexpressway.webp",
-    tags: ["Next.js", "NextAuth.js", "Tailwind CSS", "MongoDB", "Razorpay"],
-    demoUrl: "https://www.englishexpressway.com/",
+      "This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying iPhone 15 Pro models in various colors and shapes.",
+    image: "/iphone.png",
+    tags: ["ReactJS", "Tailwind CSS", "GSAP", "Three.js"],
+    demoUrl: "https://iphone-website-eta.vercel.app/",
     githubUrl: "",
     features: [
-      "Role-based authentication using NextAuth.js and JWT",
-      "Integrated Razorpay for payment transactions",
-      "Responsive landing page with course listings",
-      "User dashboard for enrolled courses",
-      "Admin dashboard for content management",
+      "3D Model Rendering with Different Colors & Sizes",
+      "GSAP Animations for Smooth Transitions",
+      "Custom Video Carousel",
     ],
   },
   {
@@ -71,7 +69,7 @@ const projects = [
       "Contact form with Nodemailer for email handling",
       "Sections like About, Mission, Services, Gallery, and Contact",
       "Designed in Figma and implemented using Next.js for fast performance",
-    ]
+    ],
   },
   {
     logo: "/exceedroboticsLogo.png",
@@ -90,7 +88,7 @@ const projects = [
       "Collaborative development with team members",
     ],
   },
-]
+];
 
 export default function Projects() {
   return (
@@ -158,19 +156,17 @@ export default function Projects() {
                       <ExternalLink className="mr-2 h-4 w-4" /> Live
                     </Link>
                   </Button>
-                  {
-                    project.githubUrl && (
-                      <Button size="sm" variant="outline">
-                        <Link
-                          href={project.githubUrl}
-                          className="flex items-center"
-                          target="_blank"
-                        >
-                          <Github className="mr-2 h-4 w-4" /> Code
-                        </Link>
-                      </Button>
-                    )
-                  }
+                  {project.githubUrl && (
+                    <Button size="sm" variant="outline">
+                      <Link
+                        href={project.githubUrl}
+                        className="flex items-center"
+                        target="_blank"
+                      >
+                        <Github className="mr-2 h-4 w-4" /> Code
+                      </Link>
+                    </Button>
+                  )}
                 </div>
               </div>
             </motion.div>
@@ -178,5 +174,5 @@ export default function Projects() {
         </div>
       </motion.div>
     </section>
-  )
+  );
 }
