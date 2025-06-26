@@ -17,7 +17,7 @@ export default function Contact() {
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSuccess, setIsSuccess] = useState(false)
-  const { toast } = useToast() 
+  const { toast } = useToast()
 
   const handleChange = (e: { target: { id: any; value: any } }) => {
     const { id, value } = e.target
