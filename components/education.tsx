@@ -7,7 +7,7 @@ const education = [
     institution: "Chandigarh University",
     degree: "B.Tech, Computer Science and Engineering",
     period: "July 2019 - May 2023",
-    gpa: "CGPA: 7.5/10",
+    gpa: "CGPA: 7.8/10",
     icon: "🎓",
   },
 ];

@@ -6,6 +6,7 @@ import { SiMongodb, SiMysql, SiTypescript } from "react-icons/si";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { VscVscode } from "react-icons/vsc";
 import { IoLogoFigma, IoLogoVercel } from "react-icons/io5";
+import { FaNode } from "react-icons/fa";
 
 const skillCategories = [
   {
@@ -19,6 +20,13 @@ const skillCategories = [
       { name: "CSS", icon: <FaCss3 className="text-blue-500" /> },
       { name: "Bootstrap", icon: <FaBootstrap className="text-purple-500" /> },
       { name: "Tailwind CSS", icon: <RiTailwindCssFill className="text-cyan-400" /> },
+    ],
+  },
+  {
+    title: "Backend",
+    skills: [
+      { name: "Node.js", icon: <FaNode className="text-green-500" /> },
+      { name: "Express.js", icon: <FaNode className="text-blue-600" /> },
     ],
   },
   {

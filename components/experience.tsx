@@ -5,6 +5,18 @@ import { Badge } from "@/components/ui/badge";
 
 const experiences = [
   {
+    title: "Software Engineer",
+    company: "LegoDesk",
+    period: "June 2025 - Present",
+    responsibilities: [
+      "Collaborate with designers, backend, and product teams to deliver scalable, user-centric features with smooth UI/UX.",
+      "Integrate secure and efficient RESTful APIs, using React Hooks / Context API / Redux, and handle real-time data updates.",
+      "Improved overall application performance by 15% by refactoring legacy components, optimizing rendering logic, and implementing React Hooks for efficient state management.",
+      "Reduced page load time by 20% through the creation of reusable UI components, lazy loading, and effective code-splitting in React, resulting in a smoother user experience."
+    ],
+    skills: ["React", "TypeScript", "RESTful APIs", "Redux", "Performance Optimization", "Code Splitting", "UI/UX"]
+  },
+  {
     title: "Frontend Developer",
     company: "Techavtar",
     period: "Aug 2024 - June 2025",
